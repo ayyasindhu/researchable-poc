@@ -13,6 +13,7 @@ function addRecord() {
   }
 }
 function calculateRecord(){
+	opHamming=[];
     for(i=0;i<values.length-1;i++){
     console.log(values[i]+ " "+ values[i+1])
     opHamming.push(hamming(values[i], values[i+1]));
